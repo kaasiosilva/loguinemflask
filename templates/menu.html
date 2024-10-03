@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Página do Menu</title>
+</head>
+<body>
+    <h1>Bem-vindo ao Menu!</h1>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('index') }}">Página Inicial</a></li>
+            <li><a href="{{ url_for('logout') }}">Logout</a></li>
+            <li><a href="{{ url_for('menu1') }}">Menu 1</a></li>
+            <li><a href="{{ url_for('menu2') }}">Menu 2</a></li>
+            <li><a href="{{ url_for('register') }}">Registrar</a></li>
+        </ul>
+    </nav>
+    <p>Esta é a página do menu. Aqui você pode acessar diferentes funcionalidades.</p>
+</body>
+</html>
